@@ -1,0 +1,11 @@
+*****Identifica las características principales de la arquitectura limpia, indica en que casos se tendría que
+utilizar la arquitectura limpia y como lo harías.****
+
+La caraterísticas principales de la arquitectura limpia son:
+Capa de Entidades: Tiene que ver con la comunicación entre servicios., gestión de datos, etc.
+Capa de casos de uso: es la capa de la lógica de la aplicación. Los cambios en esta capa no deberían afectar a
+las entidades, al igual que los cambios en otras capas externas no deberían afectar a los casos de uso.
+Capa Adaptadores de interfaz: Tiene que ver con las funciones que implementan acciones.
+Los datos generados por los casos de uso y las entidades, tienen que transformarse en algo entendible por
+la siguiente capa que los va a utilizar y de eso se encarga esta capa.
+Capa de Frameworks y drivers: Tiene la función de comunicarse con una base de datos, es la capa más externa.
